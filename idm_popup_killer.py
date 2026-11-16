@@ -365,7 +365,7 @@ def parse_args(argv=None):
     p.add_argument("--interval", type=float, default=2.0)
     p.add_argument("--cooldown", type=float, default=10.0)
     p.add_argument("--batch-delay", type=float, default=0.15,
-                   help="seconds between escalation passes (default 0.15; lower=faster)")
+                   help="seconds between escalation passes (default 0.5; lower=faster)")
     p.add_argument("--register-action", choices=["dismiss","force","kill"],
                    default="force")
     p.add_argument("--nag-action", choices=["dismiss","force"], default="dismiss")
