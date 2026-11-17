@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="100%" role="img">
+  <title>IDM Popup Killer</title>
+  <desc>Banner for a standard-library Win32 daemon that dismisses Internet Download Manager registration and nag dialogs in 13 languages, with a 2 second per-window cooldown.</desc>
+  <defs>
+    <linearGradient id="hbSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07141c"/>
+      <stop offset="0.55" stop-color="#0a1c26"/>
+      <stop offset="1" stop-color="#102430"/>
+    </linearGradient>
+    <linearGradient id="hbJade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dffa8"/>
+      <stop offset="1" stop-color="#2fcea0"/>
+    </linearGradient>
+    <linearGradient id="hbCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#173244"/>
+      <stop offset="1" stop-color="#102430"/>
+    </linearGradient>
+    <linearGradient id="hbRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d2420"/>
+      <stop offset="0.5" stop-color="#12382f"/>
+      <stop offset="1" stop-color="#0d2420"/>
+    </linearGradient>
+    <pattern id="hbDots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#d7fff0" opacity="0.16"/>
+    </pattern>
+    <filter id="hbSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#021016" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#hbSky)"/>
+  <rect x="1" y="1" width="1198" height="438" rx="17" fill="none" stroke="#1d4a45" stroke-width="1.5"/>
+
+  <!-- Right atmosphere -->
+  <g>
+    <circle cx="980" cy="150" r="150" fill="#1a6b58" opacity="0.18"/>
+    <circle cx="860" cy="230" r="70" fill="#c9a15b" opacity="0.08"/>
+    <rect x="690" y="28" width="490" height="292" fill="url(#hbDots)" opacity="0.7"/>
+  </g>
+
+  <!-- Copy -->
+  <g font-family="Segoe UI, PingFang SC, Noto Sans, Noto Naskh Arabic, Tahoma, sans-serif">
+    <rect x="48" y="36" width="248" height="28" rx="14" fill="#12382f" stroke="#2fcea0" stroke-opacity="0.45"/>
+    <text x="64" y="55" fill="#8dffe0" font-size="12" font-weight="700" letter-spacing="1.4">WIN32  ·  13 LANGUAGES</text>
+
+    <text x="48" y="128" fill="#f4fbf8" font-size="54" font-weight="800" letter-spacing="-1.2">IDM Popup Killer</text>
+    <rect x="48" y="146" width="250" height="5" rx="2.5" fill="url(#hbJade)"/>
+
+    <text x="48" y="186" fill="#c5ddd4" font-size="18">Closes registration nags in the language IDM is showing.</text>
+    <text x="48" y="214" fill="#8aa39c" font-size="16">Per-window cooldown · dismiss or force · stdlib only</text>
+
+    <!-- Metric tiles -->
+    <g transform="translate(48, 244)">
+      <rect width="168" height="64" rx="12" fill="#102833" stroke="#245246"/>
+      <text x="16" y="28" fill="#7dffa8" font-size="20" font-weight="800">2.0s</text>
+      <text x="16" y="48" fill="#9fb5ad" font-size="12">cooldown per HWND</text>
+
+      <g transform="translate(184, 0)">
+        <rect width="188" height="64" rx="12" fill="#102833" stroke="#245246"/>
+        <text x="16" y="28" fill="#f0c36a" font-size="20" font-weight="800">per class</text>
+        <text x="16" y="48" fill="#9fb5ad" font-size="12">register and nag paths</text>
+      </g>
+
+      <g transform="translate(388, 0)">
+        <rect width="210" height="64" rx="12" fill="#102833" stroke="#245246"/>
+        <text x="16" y="28" fill="#f4fbf8" font-size="20" font-weight="800">buttons only</text>
+        <text x="16" y="48" fill="#9fb5ad" font-size="12">until you choose force</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Dialog stack -->
+  <g filter="url(#hbSoft)" font-family="Segoe UI, PingFang SC, Noto Naskh Arabic, Tahoma, sans-serif">
+    <g transform="translate(790, 58) rotate(-6)">
+      <rect width="280" height="92" rx="10" fill="#1b3a36" stroke="#3d6a5c"/>
+      <text x="16" y="32" fill="#d5ebe3" font-size="15" font-weight="700">Напомнить позже</text>
+      <text x="16" y="56" fill="#8fb0a6" font-size="12">registration · ru</text>
+      <rect x="168" y="58" width="96" height="22" rx="6" fill="#244a40"/>
+      <text x="184" y="73" fill="#9fd8c4" font-size="11">Отмена</text>
+    </g>
+    <g transform="translate(812, 118) rotate(3)">
+      <rect width="290" height="96" rx="10" fill="url(#hbCard)" stroke="#3d6d62"/>
+      <text x="16" y="34" fill="#f4fbf8" font-size="16" font-weight="700">Später erinnern</text>
+      <text x="16" y="58" fill="#8fb0a6" font-size="12">nag · de · dismiss</text>
+      <rect x="150" y="66" width="122" height="22" rx="6" fill="#245246"/>
+      <text x="166" y="81" fill="#b7ffe0" font-size="11">Abbrechen</text>
+    </g>
+    <g transform="translate(760, 176)">
+      <rect width="340" height="128" rx="12" fill="#0e2430" stroke="#3ddc97" stroke-width="1.6"/>
+      <circle cx="18" cy="18" r="4" fill="#ff6b6b"/>
+      <circle cx="32" cy="18" r="4" fill="#f0c36a"/>
+      <circle cx="46" cy="18" r="4" fill="#3ddc97"/>
+      <text x="64" y="23" fill="#9fb5ad" font-size="11" font-weight="700">IDMan.exe  ·  #32770</text>
+      <text x="18" y="58" fill="#f7fffb" font-size="22" font-weight="800">稍后提醒</text>
+      <text x="18" y="82" fill="#9fb5ad" font-size="13">zh-Hans · fresh HWND, no global freeze</text>
+      <rect x="196" y="88" width="126" height="28" rx="8" fill="url(#hbJade)"/>
+      <text x="214" y="107" fill="#06241c" font-size="13" font-weight="800">取消 (&amp;C)</text>
+    </g>
+  </g>
+
+  <!-- Language rail -->
+  <g font-family="Segoe UI, PingFang SC, Noto Sans SC, Noto Sans Arabic, Noto Naskh Arabic, Tahoma, sans-serif">
+    <rect x="24" y="332" width="1152" height="84" rx="14" fill="url(#hbRail)" stroke="#1f6a56" stroke-opacity="0.7"/>
+    <text x="44" y="364" fill="#e7f7f1" font-size="16">
+      <tspan fill="#7dffa8" font-size="12" font-weight="800" letter-spacing="1.2">DISMISS</tspan>
+      <tspan dx="16">Recordar más tarde</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">Lembrar mais tarde</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">Напомнить позже</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">Rappeler plus tard</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">Später erinnern</tspan>
+    </text>
+    <text x="44" y="396" fill="#d7efe6" font-size="16">
+      <tspan>稍后提醒</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">稍後提醒</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">Nhắc tôi sau</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">Hatırlat</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">لاحقاً</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">Ingatkan saya nanti</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">بعداً</tspan>
+      <tspan dx="14" fill="#5f8f84">·</tspan>
+      <tspan dx="14">取消</tspan>
+    </text>
+  </g>
+</svg>
